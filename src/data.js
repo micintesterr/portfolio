@@ -61,9 +61,9 @@ export const experience = [
       'Mengambil alih tanggung jawab UI/UX Designer, mulai dari merancang antarmuka hingga menyiapkan desain yang dibutuhkan untuk implementasi proyek.',
     ],
     foto: ['', '', ''],
-    skill: ['Skill 1', 'Skill 2', 'Skill 3'], // placeholder, isi nanti
-    tools: ['Tool 1', 'Tool 2', 'Tool 3'] },
-  { judul: 'Scrum Admin', tempat: 'PT Solutionlabs Grup Indonesia',
+    skill: ['Project Planning', 'Sprint Planning & Task Allocation', 'Cross-Team Coordination', 'Stakeholder Communication', 'Problem Solving'], // placeholder, isi nanti
+    tools: ['Microsoft Excel', 'Google Spreadsheet', 'Trello', 'Figma', 'Discord'] },
+  { judul: 'Intern Scrum Admin', tempat: 'PT Solutionlabs Grup Indonesia',
     isi: 'Mendampingi Scrum Master menjaga ritme kerja tim developer sepanjang sprint.',
     poin: [
       'Mencatat laporan harian tiap developer: yang dikerjakan hari ini dan yang selesai kemarin.',
@@ -73,8 +73,8 @@ export const experience = [
       'Membagikan task sprint dari Project Manager ke para developer sesuai project masing-masing.',
     ],
     foto: ['', '', ''],
-    skill: ['Skill 1', 'Skill 2', 'Skill 3'], // placeholder, isi nanti
-    tools: ['Tool 1', 'Tool 2', 'Tool 3'] },
+    skill: ['Agile & Scrum Practices', 'Project Administration', 'Progress Tracking', 'Reporting', 'Coordination', 'Task Distribution', 'Team Communication'], // placeholder, isi nanti
+    tools: ['Microsoft Excel', 'Google Spreadsheet', 'Clockify', 'Microsoft Teams'] },
   { judul: 'Roblox Solo Developer', tempat: 'Independent / Self-Initiated Projects',
     isi: 'Mengembangkan produk game berbasis Roblox secara mandiri, mulai dari perencanaan konsep, penentuan scope, pengembangan fitur, desain map dan UI, hingga testing, publikasi, serta promosi untuk menjangkau pemain.',
     poin: [
@@ -87,8 +87,8 @@ export const experience = [
       'Mengeksplorasi potensi monetisasi produk melalui fitur dan item dalam game, dengan mempertimbangkan pengalaman pemain dan keberlanjutan produk.',
     ],
     foto: ['', '', ''],
-    skill: ['Skill 1', 'Skill 2', 'Skill 3'], // placeholder, isi nanti
-    tools: ['Tool 1', 'Tool 2', 'Tool 3'] },
+    skill: ['Game Development', 'Gameplay Mechanics', 'Independent Work','Asset & Data Organization', 'Scripting & Debugging', 'Continuous Improvement', 'Quality Assurance (QA)'], // placeholder, isi nanti
+    tools: ['Roblox Studio', 'Roblox Player', 'Luau/Lua'] },
 ]
 
 export const uiux = {
@@ -110,45 +110,48 @@ const slot = (n) => Array(n).fill('') // n kotak foto kosong
 // url kosong = ditampilkan "link menyusul"
 export const projects = [
   { judul: 'Sistem YOTA', jenis: 'Sistem Informasi Yayasan Sosial dan Fundraising', isi: 'Website Sosial Fundraising', peran: 'Front End Developer & Back End Developer', foto: slot(6),
-    stack: ['Vue.js', 'Golang (Go)'], skill: ['Skill 1', 'Skill 2'],
-    deskripsi: '', insight: '', outcome: '',
+    stack: ['Vue.js', 'Golang (Go)', 'PostgreSQL', 'Figma', 'Visual Studio Code', 'WSL Ubuntu'], skill: ['Requirements Analysis', 'Project Coordination', 'Front End Development', 'Back End Development', 'UI/UX Design'],
+    deskripsi: 'Website fundraising dan pengelolaan yayasan sosial yang mendukung operasional yayasan, layanan ambulans, santunan anak asuh, serta pengelolaan donasi dan berbagai program sosial.', insight: 'End-to-End System Development, Requirements Analysis & Business Process Modeling, System Design & Workflow Planning, UI/UX Design, Role-Based Access & User Flow Design, Agile & Scrum Project Management, Stakeholder Needs Analysis, User Acceptance Testing (UAT)', outcome: 'Mengembangkan rancangan sistem informasi terintegrasi untuk mendukung pengelolaan yayasan, donasi, anak asuh, program sosial, dan operasional ambulans. Proyek ini mengubah kebutuhan operasional yayasan menjadi rancangan alur kerja dan fitur sistem yang lebih terstruktur, dengan fokus pada efisiensi dan transparansi.',
     link: [
       { label: 'Frontend', url: 'https://github.com/Vilamuzz/yota-frontend' },
       { label: 'Backend', url: 'https://github.com/Vilamuzz/yota-backend' },
     ] },
-  { judul: 'Help Desk', jenis: 'Website Management Inventory', peran: 'Project Manager', foto: slot(6),
-    stack: ['Tech stack 1', 'Tech stack 2'], skill: ['Skill 1', 'Skill 2'],
-    deskripsi: '', insight: '', outcome: '',
+  { judul: 'Help Desk', jenis: 'Helpdesk System for E-Commerce Website', peran: 'Project Manager', foto: slot(6),
+    stack: ['Vue.js', 'Golang (Go)', 'TypeScript', 'HTML'], skill: ['Team Collaboration', 'Reporting','Progress Tracking'],
+    deskripsi: 'Website Help Desk berbasis chat untuk mendukung layanan pelanggan e-commerce, dengan tujuan memfasilitasi komunikasi dan penanganan pertanyaan atau kendala pelanggan.', insight: 'Project Management, Task Coordination, Requirements Understanding, Sprint & Timeline Management, Problem Solving', outcome: 'Berkontribusi dalam pengelolaan pengembangan aplikasi help desk dengan mengoordinasikan pekerjaan tim dan menjaga progres proyek sesuai target. Aplikasi dirancang untuk mendukung proses layanan pelanggan melalui komunikasi berbasis chat.',
     link: [
       { label: 'Live', url: 'https://helpdesk.magangslab.store' },
       { label: 'Frontend', url: 'https://github.com/notcikken/HD-ECOM-FE' },
       { label: 'Backend', url: 'https://github.com/Vilamuzz/HD-ECOM-BE' },
     ] },
   { judul: 'Middle Board Kodegiri', jenis: 'Management Project', peran: 'Project Manager & UI/UX Designer', foto: slot(6),
-    stack: ['Tech stack 1', 'Tech stack 2'], skill: ['Skill 1', 'Skill 2'],
-    deskripsi: '', insight: '', outcome: '',
+    stack: ['Vue.js', 'Laravel', 'PHP', 'Git/GitHub'], skill:['Project Planning', 'Sprint Planning & Task Allocation', 'Cross-Team Coordination', 'Stakeholder Communication', 'Problem Solving'],
+    deskripsi: 'Website manajemen proyek untuk mengelola proses proyek dari tahap awal masuk hingga dokumentasi legalitas, termasuk pengelolaan informasi proyek dan alokasi sumber daya manusia yang terlibat.', insight: 'Project Management & Lifecycle Planning, Sprint Planning & Task Allocation, Timeline & Progress Tracking, Resource Management, Stakeholder Communication, Cross-Team Coordination, UI/UX Design & Problem Solving', outcome: 'Berkontribusi dalam pengelolaan pengembangan website manajemen proyek melalui penyusunan daftar tugas, pembagian pekerjaan ke dalam sprint, pemantauan progres, serta komunikasi status dan kendala kepada stakeholder. Turut mendukung kebutuhan desain UI/UX untuk menjaga kesesuaian sistem dengan kebutuhan pengguna.',
     link: [
       { label: 'Frontend', url: 'https://github.com/kodegiri/MiddleBoard-FE' },
       { label: 'Backend', url: 'https://github.com/kodegiri/MiddleBoard-BE' },
     ] },
+
   { judul: 'PawOn Sight', jenis: 'Website Management Inventory', peran: 'Project Manager', foto: slot(6),
-    stack: ['Tech stack 1', 'Tech stack 2'], skill: ['Skill 1', 'Skill 2'],
-    deskripsi: '', insight: '', outcome: '',
+    stack: ['Laravel', 'PHP', 'Blade', 'Vue.js', 'JavaScript', 'CSS'], skill: ['Project Management', 'Documentation', 'Reporting'],
+    deskripsi: 'Website manajemen inventaris gudang untuk bisnis food and beverage (F&B), yang mendukung pemantauan stok barang, tanggal kedaluwarsa, serta informasi persediaan gudang.', insight: 'Project Management & Team Coordination, Requirements Analysis, Inventory Management Workflow Understanding, Task & Timeline Management, Progress Tracking & Reporting, Stakeholder Communication, Problem Solving & Prioritization', outcome: 'Berkontribusi dalam pengelolaan pengembangan sistem inventaris gudang dengan membantu mengarahkan pekerjaan tim berdasarkan kebutuhan. Sistem dirancang untuk membantu pengguna memantau persediaan secara lebih terstruktur.',
     link: [{ label: 'GitHub', url: 'https://github.com/nab-cat/pawonsight3' }] },
-  { judul: "Bloomkeeper's Balance", jenis: 'Game Greenfoot', foto: slot(6),
-    stack: ['Java', 'Greenfoot'], skill: ['Skill 1', 'Skill 2'],
-    deskripsi: '', insight: '', outcome: '',
+  
+    { judul: "Bloomkeeper's Balance", jenis: 'Game Greenfoot', foto: slot(6),
+    stack: ['Java', 'Greenfoot'], skill: ['Game Development Fundamentals', 'Object-Oriented Programming (OOP)','Programming Logic'],
+    deskripsi: 'Game berbasis Greenfoot yang dikembangkan sebagai proyek perkuliahan. Game ini bertujuan untuk membantu anak-anak mengenal dan memahami konsep rantai makanan.', insight: 'Game Development Fundamentals, Programming Logic, Object-Oriented Programming (OOP), Game Mechanics Implementation, Game Testing & Debugging', outcome: 'Mengembangkan proyek game menggunakan Greenfoot sebagai sarana menerapkan logika pemrograman dan konsep pengembangan game dan OOP. Game ini dirancang untuk memberikan pengalaman belajar yang interaktif bagi anak-anak dalam memahami konsep rantai makanan.',
     link: [{ label: 'Main di Greenfoot', url: 'https://www.greenfoot.org/scenarios/33067' }] },
-  { judul: 'Slicing Sistem', jenis: 'Slicing Design UI/UX', foto: slot(6),
-    stack: ['Tech stack 1', 'Tech stack 2'], skill: ['Skill 1', 'Skill 2'],
-    deskripsi: '', insight: '', outcome: '',
+  
+    { judul: 'Slicing Sistem', jenis: 'Slicing Design UI/UX', foto: slot(6),
+    stack: ['HTML', 'TypeScript', 'JavaScript', 'Vue.js'], skill: ['Frontend Development Fundamentals', 'UI Slicing', 'Responsive Design'],
+    deskripsi: 'Proyek implementasi desain antarmuka menjadi tampilan website menggunakan kode frontend, dengan fokus pada kesesuaian hasil implementasi terhadap desain yang menjadi acuan.', insight: 'UI Slicing & Design-to-Code Implementation, Frontend Development Fundamentals, Layout & Styling, Attention to Visual Detail, Responsive Web Design', outcome: 'Mengimplementasikan desain antarmuka menjadi tampilan website menggunakan teknologi frontend. Proyek ini melatih kemampuan menerjemahkan desain visual ke dalam struktur dan styling antarmuka, serta memperhatikan konsistensi layout dan detail tampilan.',
     link: [{ label: 'GitHub', url: 'https://github.com/micintesterr/Slicing-Sistem-2' }] },
 ]
 
 // Bagian khusus Roblox. isi (deskripsi) tiap map opsional: kosong = tidak tampil.
 export const roblox = {
   script: 'kita harus punya karya',
-  sub: 'World Builder = Roblox Developer',
+//sub: 'World Builder = Roblox Developer',
   judul: 'WORLD BUILDER',
   isi: 'Dirancang, dibangun, diuji, dipublikasikan, sampai dipromosikan sendirian. Dari scope, fitur, sampai desain map, semuanya dikerjakan solo.',
   maps: [

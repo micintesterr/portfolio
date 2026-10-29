@@ -173,7 +173,7 @@ onBeforeUnmount(() => { io && io.disconnect(); document.removeEventListener('cli
     <section class="section tight">
       <div class="wrap split top">
         <div>
-          <p class="script note">belajar komunikasi</p>
+          <p class="script note">darimana belajar soal</p>
           <h2 class="big"><span>KOMUNIKASI</span></h2>
           <ul class="agenda">
             <li v-for="k in komunikasi" :key="k"><span>{{ pecah(k).judul }}</span><time>{{ pecah(k).tanggal }}</time></li>
