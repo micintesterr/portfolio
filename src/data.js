@@ -61,6 +61,7 @@ export const experience = [
       'Mengambil alih tanggung jawab UI/UX Designer, mulai dari merancang antarmuka hingga menyiapkan desain yang dibutuhkan untuk implementasi proyek.',
     ],
     foto: ['', '', ''],
+
     skill: ['Project Planning', 'Sprint Planning & Task Allocation', 'Cross-Team Coordination', 'Stakeholder Communication', 'Problem Solving'], // placeholder, isi nanti
     tools: ['Microsoft Excel', 'Google Spreadsheet', 'Trello', 'Figma', 'Discord'] },
   { judul: 'Intern Scrum Admin', tempat: 'PT Solutionlabs Grup Indonesia',
@@ -73,6 +74,7 @@ export const experience = [
       'Membagikan task sprint dari Project Manager ke para developer sesuai project masing-masing.',
     ],
     foto: ['', '', ''],
+
     skill: ['Agile & Scrum Practices', 'Project Administration', 'Progress Tracking', 'Reporting', 'Coordination', 'Task Distribution', 'Team Communication'], // placeholder, isi nanti
     tools: ['Microsoft Excel', 'Google Spreadsheet', 'Clockify', 'Microsoft Teams'] },
   { judul: 'Roblox Solo Developer', tempat: 'Independent / Self-Initiated Projects',
@@ -86,7 +88,7 @@ export const experience = [
       'Mengelola publikasi dan promosi game serta mengamati respons dan statistik kunjungan untuk mengevaluasi performa produk setelah diluncurkan.',
       'Mengeksplorasi potensi monetisasi produk melalui fitur dan item dalam game, dengan mempertimbangkan pengalaman pemain dan keberlanjutan produk.',
     ],
-    foto: ['', '', ''],
+    foto: ['/img/roblox/icon-mount-kyowo.png', '/img/roblox/icon-photoblox.png', '/img/roblox/icon-ducky.png'],
     skill: ['Game Development', 'Gameplay Mechanics', 'Independent Work','Asset & Data Organization', 'Scripting & Debugging', 'Continuous Improvement', 'Quality Assurance (QA)'], // placeholder, isi nanti
     tools: ['Roblox Studio', 'Roblox Player', 'Luau/Lua'] },
 ]
@@ -155,11 +157,14 @@ export const roblox = {
   judul: 'WORLD BUILDER',
   isi: 'Dirancang, dibangun, diuji, dipublikasikan, sampai dipromosikan sendirian. Dari scope, fitur, sampai desain map, semuanya dikerjakan solo.',
   maps: [
-    { judul: 'Mount Ducky', badge: 'Sudah dimainkan oleh 6M (6 juta) orang', isi: '', foto: slot(6),
-      link: [{ label: 'Main di Roblox', url: '' }] }, // isi url kalau sudah ada
-    { judul: 'Mount Kyowo', badge: '', isi: '', foto: slot(6),
+    { judul: 'Mount Ducky', badge: 'Sudah dimainkan oleh 2.6M (2,6 juta) orang',
+    isi: '...',
+    foto: ['/img/roblox/icon-ducky.png', '/img/roblox/ducky3.jpg', '/img/roblox/ducky4.jpg', '/img/roblox/ducky5.jpg', '/img/roblox/ducky6.jpg', '/img/roblox/ducky8.png'],
+    link: [{ label: 'Main di Roblox', url: 'https://www.roblox.com/games/137533333619498/Mount-Ducky' }] },
+    { judul: 'Mount Kyowo', badge: '', 
+      isi: '', foto: ['/img/roblox/icon-mount-kyowo.png', '/img/roblox/kyowo(1).png', '/img/roblox/kyowo(2).png', '/img/roblox/kyowo(6).png', '/img/roblox/kyowo(3).png', '/img/roblox/kyowo(5).png'],
       link: [{ label: 'Main di Roblox', url: 'https://www.roblox.com/games/127171668993669/X10-MOUNT-KYOWO' }] },
-    { judul: 'Photoblox', badge: '', isi: 'Game photobooth di Roblox.', foto: slot(6),
+    { judul: 'Photoblox', badge: '', isi: 'Game photobooth di Roblox.', foto: ['/img/roblox/icon-photoblox.png', '/img/roblox/photoblox1.png', '/img/roblox/photoblox2.png', '/img/roblox/photoblox3.png', '/img/roblox/photoblox4.png', '/img/roblox/photoblox5.png'],
       link: [{ label: 'Main di Roblox', url: 'https://www.roblox.com/games/136728817343985/Photoblox' }] },
   ],
 }
