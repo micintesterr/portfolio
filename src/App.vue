@@ -10,7 +10,7 @@ import {
   uiux, projects, roblox, sorotan, tools, pendidikan, contacts, sertifikat,
 } from './data'
 
-const ticker = ['Project Manager', 'Scrum Admin', 'UI/UX Designer', 'Product Development', 'Roblox World Builder']
+const ticker = ['Project Manager', 'Scrum Admin', 'UI/UX Designer', 'Product Development', 'Roblox Creator']
 const nav = [
   { id: 'skill', label: 'Skill' },
   { id: 'pengalaman', label: 'Pengalaman' },

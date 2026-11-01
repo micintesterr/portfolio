@@ -185,10 +185,11 @@ export const tools = [
     { nama: 'Microsoft Word', ikon: ['word'] }, { nama: 'Google Docs', ikon: ['docs'] },
     { nama: 'Trello', ikon: ['trello'] }, { nama: 'Clockify', ikon: ['clockify'] },
     { nama: 'Microsoft PowerPoint', ikon: ['powerpoint'] } ] },
-  { grup: 'Kolaborasi & Komunikasi', item: [
-    { nama: 'Discord', ikon: ['discord'] }, { nama: 'WhatsApp', ikon: ['whatsapp'] },
-    { nama: 'Google Drive', ikon: ['drive'] }, { nama: 'Gmail', ikon: ['gmail'] },
-    { nama: 'Google Calendar', ikon: ['calendar'] } ] },
+{ grup: 'Kolaborasi & Komunikasi', item: [
+  { nama: 'Discord', ikon: ['discord'] }, { nama: 'WhatsApp', ikon: ['whatsapp'] },
+  { nama: 'Zoom', ikon: ['zoom'] }, { nama: 'Microsoft Teams', ikon: ['teams'] },
+  { nama: 'Google Drive', ikon: ['drive'] }, { nama: 'Gmail', ikon: ['gmail'] },
+  { nama: 'Google Calendar', ikon: ['calendar'] } ] },
   { grup: 'Desain & Dokumentasi Visual', item: [
     { nama: 'Figma', ikon: ['figma'] }, { nama: 'Canva', ikon: ['canva'] },
     { nama: 'diagrams.net (draw.io)', ikon: ['drawio'] } ] },
