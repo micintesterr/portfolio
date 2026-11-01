@@ -14,8 +14,8 @@ export const profile = {
     'Lulusan D3 Teknik Informatika UNS, berpengalaman mengembangkan produk digital berbasis Roblox serta merancang sistem informasi. Memiliki perpaduan kemampuan project management, product thinking, dan UI/UX design, mulai dari analisis kebutuhan, perancangan fitur, hingga koordinasi pengembangan produk. Berorientasi pada solusi, terstruktur dalam bekerja, dan tertarik menjembatani kebutuhan pengguna dengan solusi teknologi yang berdampak.\n\nBerfokus mengembangkan karier di bidang Project Management dan Product Development dengan terus memperkuat pemahaman teknis, kemampuan kolaborasi, dan pengalaman mengelola proyek dari perencanaan hingga implementasi.',
   status: 'Terbuka untuk peluang kerja', // kosongkan kalau tidak mau ditampilkan
   cv: '', // contoh: '/cv-cantika.pdf' (taruh file di folder public/). Kosong = tombol CV disembunyikan
-  fotoHero: '',   // foto cutout PNG transparan (slide 1)
-  fotoTentang: '', // foto cutout PNG transparan (slide 2)
+  fotoHero: '/img/profile/profile1.png',   // foto cutout PNG transparan (slide 1)
+  fotoTentang: '/img/profile/profile2.png', // foto cutout PNG transparan (slide 2)
 }
 
 export const skills = [
@@ -35,7 +35,7 @@ export const skills = [
   { judul: 'Administrative Support', isi: 'Berpengalaman mendukung kegiatan administrasi proyek melalui pencatatan informasi, pembaruan data, pengelolaan dokumen, dan penyusunan laporan secara terstruktur.' },
   { judul: 'Reporting & Documentation', isi: 'Berpengalaman mencatat laporan harian serta mengonsolidasikan informasi menjadi laporan mingguan dan bulanan untuk membantu pemantauan progres pekerjaan.' },
 ]
-export const fotoSkill = ''
+export const fotoSkill = '/img/profile/profile3.jpg'
 
 export const komunikasi = [
   'MC Donor Darah | Agustus 2024',
@@ -47,7 +47,7 @@ export const komunikasi = [
   'Moderator Latkermas | November 2024',
   'Moderator Rapat Besar II PRASASTI #9 | Januari 2025',
 ]
-export const fotoKomunikasi = ['', '', '', '', ''] // 4-6 foto kegiatan; tambah/kurangi isi array sesuai jumlah foto
+export const fotoKomunikasi = ['/img/komunikasi/kom5.jpg', '/img/komunikasi/kom6.png', '/img/komunikasi/kom3.jpg', '/img/komunikasi/kom1.jpg', '/img/komunikasi/kom2.jpg'] // 4-6 foto kegiatan; tambah/kurangi isi array sesuai jumlah foto
 
 // foto: tempat foto dokumentasi tiap pengalaman. Isi path gambar, contoh ['/img/kodegiri-1.jpg']. Kosong = kotak tempat foto.
 export const experience = [
@@ -60,7 +60,7 @@ export const experience = [
       'Menyampaikan update progres kepada stakeholder melalui Discord, termasuk task yang telah selesai, task yang belum terselesaikan, dan kendala selama pengembangan.',
       'Mengambil alih tanggung jawab UI/UX Designer, mulai dari merancang antarmuka hingga menyiapkan desain yang dibutuhkan untuk implementasi proyek.',
     ],
-    foto: ['', '', ''],
+    foto: ['/img/project/kodegiri1.png', '/img/project/UI10.png', '/img/project/kodegiri3.jpg'],
 
     skill: ['Project Planning', 'Sprint Planning & Task Allocation', 'Cross-Team Coordination', 'Stakeholder Communication', 'Problem Solving'], // placeholder, isi nanti
     tools: ['Microsoft Excel', 'Google Spreadsheet', 'Trello', 'Figma', 'Discord'] },
@@ -73,7 +73,7 @@ export const experience = [
       'Mencatat developer yang lembur.',
       'Membagikan task sprint dari Project Manager ke para developer sesuai project masing-masing.',
     ],
-    foto: ['', '', ''],
+    foto: ['/img/project/slab3.png', '/img/project/slab4.png', '/img/project/slab5.png'],
 
     skill: ['Agile & Scrum Practices', 'Project Administration', 'Progress Tracking', 'Reporting', 'Coordination', 'Task Distribution', 'Team Communication'], // placeholder, isi nanti
     tools: ['Microsoft Excel', 'Google Spreadsheet', 'Clockify', 'Microsoft Teams'] },
@@ -95,10 +95,10 @@ export const experience = [
 
 export const uiux = {
   link: [
-    { label: 'Middle Board - UI/UX Design', url: '#' }, // GANTI dengan link Figma
-    { label: 'Middle Board - Interactive Prototype', url: '#' }, // GANTI dengan link prototype
+    { label: 'Middle Board - UI/UX Design', url: 'https://www.figma.com/design/y31k7tauQQ800sqyApuSD9/Revisi-Design-2?node-id=2-162&p=f' }, // GANTI dengan link Figma
+    { label: 'Middle Board - Interactive Prototype', url: 'https://www.figma.com/proto/y31k7tauQQ800sqyApuSD9/Revisi-Design-2?node-id=1372-116795&p=f&t=DB7JqsSc3eobgkbe-1&scaling=min-zoom&content-scaling=fixed&page-id=1163%3A20141' }, // GANTI dengan link prototype
   ],
-  foto: ['', '', '', '', '', ''], // screenshot desktop/laptop desain (login, edit profile, warning, dst.)
+  foto: ['/img/project/UI1.png', '/img/project/UI2.png', '/img/project/UI3.png', '/img/project/UI4.png', '/img/project/UI5.png', '/img/project/UI6.png', '/img/project/UI7.png', '/img/project/UI8.png', '/img/project/UI9.png', '/img/project/UI10.png'], // screenshot desktop/laptop desain (login, edit profile, warning, dst.)
 }
 
 const slot = (n) => Array(n).fill('') // n kotak foto kosong
@@ -111,14 +111,16 @@ const slot = (n) => Array(n).fill('') // n kotak foto kosong
 // deskripsi / insight / outcome: kosong = tampil "menyusul".
 // url kosong = ditampilkan "link menyusul"
 export const projects = [
-  { judul: 'Sistem YOTA', jenis: 'Sistem Informasi Yayasan Sosial dan Fundraising', isi: 'Website Sosial Fundraising', peran: 'Front End Developer & Back End Developer', foto: slot(6),
+  { judul: 'Sistem YOTA', jenis: 'Sistem Informasi Yayasan Sosial dan Fundraising', isi: 'Website Sosial Fundraising', peran: 'Front End Developer & Back End Developer', 
+    foto: ['/img/project/yota8.JPG', '/img/project/yota2.png', '/img/project/yota3.png', '/img/project/yota4.png', '/img/project/yota5.png', '/img/project/yota9.JPG'],
     stack: ['Vue.js', 'Golang (Go)', 'PostgreSQL', 'Figma', 'Visual Studio Code', 'WSL Ubuntu'], skill: ['Requirements Analysis', 'Project Coordination', 'Front End Development', 'Back End Development', 'UI/UX Design'],
     deskripsi: 'Website fundraising dan pengelolaan yayasan sosial yang mendukung operasional yayasan, layanan ambulans, santunan anak asuh, serta pengelolaan donasi dan berbagai program sosial.', insight: 'End-to-End System Development, Requirements Analysis & Business Process Modeling, System Design & Workflow Planning, UI/UX Design, Role-Based Access & User Flow Design, Agile & Scrum Project Management, Stakeholder Needs Analysis, User Acceptance Testing (UAT)', outcome: 'Mengembangkan rancangan sistem informasi terintegrasi untuk mendukung pengelolaan yayasan, donasi, anak asuh, program sosial, dan operasional ambulans. Proyek ini mengubah kebutuhan operasional yayasan menjadi rancangan alur kerja dan fitur sistem yang lebih terstruktur, dengan fokus pada efisiensi dan transparansi.',
     link: [
       { label: 'Frontend', url: 'https://github.com/Vilamuzz/yota-frontend' },
       { label: 'Backend', url: 'https://github.com/Vilamuzz/yota-backend' },
     ] },
-  { judul: 'Help Desk', jenis: 'Helpdesk System for E-Commerce Website', peran: 'Project Manager', foto: slot(6),
+  { judul: 'Help Desk', jenis: 'Helpdesk System for E-Commerce Website', peran: 'Project Manager', 
+    foto: ['/img/project/slab1.png', '/img/project/slab2.png','/img/project/slab3.png','/img/project/slab4.png','/img/project/slab5.png', '/img/project/slab6.png', '/img/project/slab7.png'],
     stack: ['Vue.js', 'Golang (Go)', 'TypeScript', 'HTML'], skill: ['Team Collaboration', 'Reporting','Progress Tracking'],
     deskripsi: 'Website Help Desk berbasis chat untuk mendukung layanan pelanggan e-commerce, dengan tujuan memfasilitasi komunikasi dan penanganan pertanyaan atau kendala pelanggan.', insight: 'Project Management, Task Coordination, Requirements Understanding, Sprint & Timeline Management, Problem Solving', outcome: 'Berkontribusi dalam pengelolaan pengembangan aplikasi help desk dengan mengoordinasikan pekerjaan tim dan menjaga progres proyek sesuai target. Aplikasi dirancang untuk mendukung proses layanan pelanggan melalui komunikasi berbasis chat.',
     link: [
@@ -126,7 +128,7 @@ export const projects = [
       { label: 'Frontend', url: 'https://github.com/notcikken/HD-ECOM-FE' },
       { label: 'Backend', url: 'https://github.com/Vilamuzz/HD-ECOM-BE' },
     ] },
-  { judul: 'Middle Board Kodegiri', jenis: 'Management Project', peran: 'Project Manager & UI/UX Designer', foto: slot(6),
+  { judul: 'Middle Board Kodegiri', jenis: 'Management Project', peran: 'Project Manager & UI/UX Designer', foto: ['/img/project/kodegiri1.png', '/img/project/kodegiri4.png', '/img/project/kodegiri3.jpg', '/img/project/kodegiri5.png', '/img/project/kodegiri6.png', '/img/project/UI2.png'],
     stack: ['Vue.js', 'Laravel', 'PHP', 'Git/GitHub'], skill:['Project Planning', 'Sprint Planning & Task Allocation', 'Cross-Team Coordination', 'Stakeholder Communication', 'Problem Solving'],
     deskripsi: 'Website manajemen proyek untuk mengelola proses proyek dari tahap awal masuk hingga dokumentasi legalitas, termasuk pengelolaan informasi proyek dan alokasi sumber daya manusia yang terlibat.', insight: 'Project Management & Lifecycle Planning, Sprint Planning & Task Allocation, Timeline & Progress Tracking, Resource Management, Stakeholder Communication, Cross-Team Coordination, UI/UX Design & Problem Solving', outcome: 'Berkontribusi dalam pengelolaan pengembangan website manajemen proyek melalui penyusunan daftar tugas, pembagian pekerjaan ke dalam sprint, pemantauan progres, serta komunikasi status dan kendala kepada stakeholder. Turut mendukung kebutuhan desain UI/UX untuk menjaga kesesuaian sistem dengan kebutuhan pengguna.',
     link: [
@@ -134,17 +136,17 @@ export const projects = [
       { label: 'Backend', url: 'https://github.com/kodegiri/MiddleBoard-BE' },
     ] },
 
-  { judul: 'PawOn Sight', jenis: 'Website Management Inventory', peran: 'Project Manager', foto: slot(6),
+  { judul: 'PawOn Sight', jenis: 'Website Management Inventory', peran: 'Project Manager', foto: ['/img/project/pws1.png', '/img/project/pws2.png', '/img/project/pws3.png', '/img/project/pws4.png'],
     stack: ['Laravel', 'PHP', 'Blade', 'Vue.js', 'JavaScript', 'CSS'], skill: ['Project Management', 'Documentation', 'Reporting'],
     deskripsi: 'Website manajemen inventaris gudang untuk bisnis food and beverage (F&B), yang mendukung pemantauan stok barang, tanggal kedaluwarsa, serta informasi persediaan gudang.', insight: 'Project Management & Team Coordination, Requirements Analysis, Inventory Management Workflow Understanding, Task & Timeline Management, Progress Tracking & Reporting, Stakeholder Communication, Problem Solving & Prioritization', outcome: 'Berkontribusi dalam pengelolaan pengembangan sistem inventaris gudang dengan membantu mengarahkan pekerjaan tim berdasarkan kebutuhan. Sistem dirancang untuk membantu pengguna memantau persediaan secara lebih terstruktur.',
     link: [{ label: 'GitHub', url: 'https://github.com/nab-cat/pawonsight3' }] },
   
-    { judul: "Bloomkeeper's Balance", jenis: 'Game Greenfoot', foto: slot(6),
+    { judul: "Bloomkeeper's Balance", jenis: 'Game Greenfoot', foto: ['/img/project/bloom1.png', '/img/project/bloom2.png', '/img/project/bloom3.png', '/img/project/bloom4.png', '/img/project/bloom5.png', '/img/project/bloom6.png'],
     stack: ['Java', 'Greenfoot'], skill: ['Game Development Fundamentals', 'Object-Oriented Programming (OOP)','Programming Logic'],
     deskripsi: 'Game berbasis Greenfoot yang dikembangkan sebagai proyek perkuliahan. Game ini bertujuan untuk membantu anak-anak mengenal dan memahami konsep rantai makanan.', insight: 'Game Development Fundamentals, Programming Logic, Object-Oriented Programming (OOP), Game Mechanics Implementation, Game Testing & Debugging', outcome: 'Mengembangkan proyek game menggunakan Greenfoot sebagai sarana menerapkan logika pemrograman dan konsep pengembangan game dan OOP. Game ini dirancang untuk memberikan pengalaman belajar yang interaktif bagi anak-anak dalam memahami konsep rantai makanan.',
     link: [{ label: 'Main di Greenfoot', url: 'https://www.greenfoot.org/scenarios/33067' }] },
   
-    { judul: 'Slicing Sistem', jenis: 'Slicing Design UI/UX', foto: slot(6),
+    { judul: 'Slicing Sistem', jenis: 'Slicing Design UI/UX', foto: ['/img/project/slicing1.png', '/img/project/slicing2.png', '/img/project/slicing3.png', '/img/project/slicing4.png', '/img/project/slicing5.png', '/img/project/slicing6.png'],
     stack: ['HTML', 'TypeScript', 'JavaScript', 'Vue.js'], skill: ['Frontend Development Fundamentals', 'UI Slicing', 'Responsive Design'],
     deskripsi: 'Proyek implementasi desain antarmuka menjadi tampilan website menggunakan kode frontend, dengan fokus pada kesesuaian hasil implementasi terhadap desain yang menjadi acuan.', insight: 'UI Slicing & Design-to-Code Implementation, Frontend Development Fundamentals, Layout & Styling, Attention to Visual Detail, Responsive Web Design', outcome: 'Mengimplementasikan desain antarmuka menjadi tampilan website menggunakan teknologi frontend. Proyek ini melatih kemampuan menerjemahkan desain visual ke dalam struktur dan styling antarmuka, serta memperhatikan konsistensi layout dan detail tampilan.',
     link: [{ label: 'GitHub', url: 'https://github.com/micintesterr/Slicing-Sistem-2' }] },
@@ -154,7 +156,7 @@ export const projects = [
 export const roblox = {
   script: 'kita harus punya karya',
 //sub: 'World Builder = Roblox Developer',
-  judul: 'WORLD BUILDER',
+  judul: 'Roblox Creator',
   isi: 'Dirancang, dibangun, diuji, dipublikasikan, sampai dipromosikan sendirian. Dari scope, fitur, sampai desain map, semuanya dikerjakan solo.',
   maps: [
     { judul: 'Mount Ducky', badge: 'Sudah dimainkan oleh 2.6M (2,6 juta) orang',
@@ -170,7 +172,7 @@ export const roblox = {
 }
 
 export const sorotan = [
-  { angka: '6M', label: 'pemain di map Mount Ducky' },
+  { angka: '2.6M', label: 'pemain di map Mount Ducky' },
   { angka: '10', label: 'anggota tim di Middle Board' },
   { angka: '2', label: 'tim scrum yang dikoordinasi' },
   { angka: String(projects.length + roblox.maps.length), label: 'project dikerjakan' },
@@ -214,7 +216,7 @@ export const contacts = [
 export const sertifikat = [
   { judul: 'Sertifikasi Kompetensi Programmer', ket: 'BNSP, 2026, sertifikasi kompetensi programmer.', foto: '/img/sertif/sertif10.png' },
   { judul: 'Test of English for International Communication(TOEIC)', ket: 'UPT dan Pengembangan Bahasa UNS, 2026', foto: '/img/sertif/sertif11.png' },
-    { judul: 'Sertifikat Magang Industri [KMI]', ket: 'PT Solutionlabs Grup Indonesia, 2026', foto: '/img/sertif/sertif15.png' },
+  { judul: 'Sertifikat Magang Industri [KMI]', ket: 'PT Solutionlabs Grup Indonesia, 2026', foto: '/img/sertif/sertif15.png' },
   { judul: 'Sertifikat Magang Industri [KMM]', ket: 'PT Solutionlabs Grup Indonesia, 2026', foto: '/img/sertif/sertif16.png' },
   { judul: 'Sertifikat Pelatihan Kepemimpinan ', ket: 'Eduverse Indonesia, 2026', foto: '/img/sertif/sertif13.png' },
   { judul: '[BOOTCAMP] Front-End Developer', ket: 'PT Solutionlabs Grup Indonesia, 2024', foto: '/img/sertif/sertif1.png' },
