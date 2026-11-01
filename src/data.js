@@ -158,13 +158,13 @@ export const roblox = {
   isi: 'Dirancang, dibangun, diuji, dipublikasikan, sampai dipromosikan sendirian. Dari scope, fitur, sampai desain map, semuanya dikerjakan solo.',
   maps: [
     { judul: 'Mount Ducky', badge: 'Sudah dimainkan oleh 2.6M (2,6 juta) orang',
-    isi: '...',
+    isi: 'Mount Ducky merupakan game petualangan pendakian bertema bebek yang menghadirkan berbagai rintangan unik berbentuk bebek, kapal bebek, serta beragam aksesori menggemaskan seperti kostum, topi, dan ransel bebek. Dengan konsep serba bebek dari lingkungan hingga karakter, game ini menawarkan pengalaman bermain yang ceria, santai, dan penuh elemen lucu di sepanjang perjalanan menuju puncak.',
     foto: ['/img/roblox/icon-ducky.png', '/img/roblox/ducky3.jpg', '/img/roblox/ducky4.jpg', '/img/roblox/ducky5.jpg', '/img/roblox/ducky6.jpg', '/img/roblox/ducky8.png'],
     link: [{ label: 'Main di Roblox', url: 'https://www.roblox.com/games/137533333619498/Mount-Ducky' }] },
     { judul: 'Mount Kyowo', badge: '', 
-      isi: '', foto: ['/img/roblox/icon-mount-kyowo.png', '/img/roblox/kyowo(1).png', '/img/roblox/kyowo(2).png', '/img/roblox/kyowo(6).png', '/img/roblox/kyowo(3).png', '/img/roblox/kyowo(5).png'],
+      isi: 'Mount Kyowo merupakan game petualangan pendakian bertema kerajaan fantasi yang mengubah avatar pemain menjadi Avadoll, karakter mini yang imut dan menggemaskan. Mengusung suasana istana dengan nuansa pangeran dan putri kerajaan, game ini menghadirkan pengalaman eksplorasi yang penuh pesona melalui desain karakter dan lingkungan yang terinspirasi dari dunia dongeng.', foto: ['/img/roblox/icon-mount-kyowo.png', '/img/roblox/kyowo(1).png', '/img/roblox/kyowo(2).png', '/img/roblox/kyowo(6).png', '/img/roblox/kyowo(3).png', '/img/roblox/kyowo(5).png'],
       link: [{ label: 'Main di Roblox', url: 'https://www.roblox.com/games/127171668993669/X10-MOUNT-KYOWO' }] },
-    { judul: 'Photoblox', badge: '', isi: 'Game photobooth di Roblox.', foto: ['/img/roblox/icon-photoblox.png', '/img/roblox/photoblox1.png', '/img/roblox/photoblox2.png', '/img/roblox/photoblox3.png', '/img/roblox/photoblox4.png', '/img/roblox/photoblox5.png'],
+    { judul: 'Photoblox', badge: '', isi: 'Photoblox merupakan game interaktif yang memungkinkan pemain mengabadikan avatar mereka dalam berbagai gaya foto yang kreatif dan personal. Pemain dapat berkreasi dengan mengombinasikan beragam pilihan bingkai foto, warna latar, dan stiker dekoratif untuk menghasilkan foto avatar yang unik sesuai selera.', foto: ['/img/roblox/icon-photoblox.png', '/img/roblox/photoblox1.png', '/img/roblox/photoblox2.png', '/img/roblox/photoblox3.png', '/img/roblox/photoblox4.png', '/img/roblox/photoblox5.png'],
       link: [{ label: 'Main di Roblox', url: 'https://www.roblox.com/games/136728817343985/Photoblox' }] },
   ],
 }
@@ -212,10 +212,25 @@ export const contacts = [
 // Sertifikat & pencapaian. foto = gambar sertifikat (contoh '/img/sertifikat-1.jpg').
 // judul + ket tampil saat kartu di-hover. Placeholder, isi nanti.
 export const sertifikat = [
-  { judul: 'Nama Sertifikat 1', ket: 'Penerbit, tahun, dan deskripsi singkat.', foto: '' },
-  { judul: 'Nama Sertifikat 2', ket: 'Penerbit, tahun, dan deskripsi singkat.', foto: '' },
-  { judul: 'Nama Sertifikat 3', ket: 'Penerbit, tahun, dan deskripsi singkat.', foto: '' },
-  { judul: 'Nama Sertifikat 4', ket: 'Penerbit, tahun, dan deskripsi singkat.', foto: '' },
-  { judul: 'Nama Sertifikat 5', ket: 'Penerbit, tahun, dan deskripsi singkat.', foto: '' },
-  { judul: 'Nama Sertifikat 6', ket: 'Penerbit, tahun, dan deskripsi singkat.', foto: '' },
+  { judul: 'Sertifikasi Kompetensi Programmer', ket: 'BNSP, 2026, sertifikasi kompetensi programmer.', foto: '/img/sertif/sertif10.png' },
+  { judul: 'Test of English for International Communication(TOEIC)', ket: 'UPT dan Pengembangan Bahasa UNS, 2026', foto: '/img/sertif/sertif11.png' },
+    { judul: 'Sertifikat Magang Industri [KMI]', ket: 'PT Solutionlabs Grup Indonesia, 2026', foto: '/img/sertif/sertif15.png' },
+  { judul: 'Sertifikat Magang Industri [KMM]', ket: 'PT Solutionlabs Grup Indonesia, 2026', foto: '/img/sertif/sertif16.png' },
+  { judul: 'Sertifikat Pelatihan Kepemimpinan ', ket: 'Eduverse Indonesia, 2026', foto: '/img/sertif/sertif13.png' },
+  { judul: '[BOOTCAMP] Front-End Developer', ket: 'PT Solutionlabs Grup Indonesia, 2024', foto: '/img/sertif/sertif1.png' },
+  { judul: '[COURSE] Intro to Software Engineering', ket: 'PT Revolusi Cita Edukasi, 2023', foto: '/img/sertif/sertif9.png' },
+  { judul: '[COURSE] Java Fundamental', ket: 'Oracle Academy, 2024', foto: '/img/sertif/sertif3.png' },
+  { judul: '[COURSE] Python Essentials', ket: 'Cisco Networking Academy, 2024', foto: '/img/sertif/sertif5.png' },
+  { judul: '[LOMBA] Pekan Ilmiah Mahasiswa', ket: 'Direktorat Kemahasiswaan UNS, 2025', foto: '/img/sertif/sertif7.png' },
+  { judul: '[LOMBA] OLIVIA Scientific Papers', ket: 'Universitas Sebelas Maret, 2023', foto: '/img/sertif/sertif12.png' },
+  { judul: '[LOMBA] Senior Competitive Programming', ket: 'Universitas Sumatera Utara, 2026', foto: '/img/sertif/sertif8.png' }, 
+  { judul: '[LOMBA] Sayembara Desain Logo E-Mailkomp 2026', ket: 'E-Mailkomp, 2024', foto: '/img/sertif/sertif19.png' },
+  { judul: '[KEPANITIAAN] MC Donor Darah Sokalima KEMAS UNS', ket: 'Keluarga Mahasiswa Sukoharjo UNS, 2024', foto: '/img/sertif/sertif4.png' },
+  { judul: '[KEPANITIAAN] Staff Hubungan Masyarakat KEMAS UNS', ket: 'Keluarga Mahasiswa Sukoharjo UNS, 2025', foto: '/img/sertif/sertif6.png' },              
+  { judul: '[KEPANITIAAN] Staff Divisi Acara Prasasti Fest', ket: 'Keluarga Mahasiswa Sukoharjo UNS, 2024', foto: '/img/sertif/sertif17.png' },
+  { judul: '[KEPANITIAAN] Panitia Seminar Nasional SIF 2025', ket: 'E-Mailkomp, 2025', foto: '/img/sertif/sertif14.png' },
+  { judul: '[SEMINAR] Pre Job Training', ket: 'Direktorat Alumni dan Kewirausahaan Mahasiswa UNS, 2026', foto: '/img/sertif/sertif18.png' },
+  { judul: '[SEMINAR] Menghadapi Ancaman Cyber dengan Dukungan AI', ket: 'E-Mailkomp, 2024', foto: '/img/sertif/sertif20.png' },
+
 ]
+
